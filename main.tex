@@ -1,0 +1,36 @@
+\documentclass{report}
+
+\usepackage{graphicx}
+\usepackage{tabularx}
+% rotating the related works table
+\usepackage{rotating}
+% midrule, toprule and bottomrule for tables
+\usepackage{booktabs}
+% align environment
+\usepackage{amsmath}
+\usepackage[top=30mm, bottom=30mm, left=25mm, right=30mm]{geometry}
+\usepackage[localise]{xepersian}
+
+\settextfont[Scale=1.2]{Vazir}
+\renewcommand{\baselinestretch}{1.5}
+
+\title{تمرین سری سوم\\اینترنت اشیا}
+\author{الهه داستان\\۹۶۳۱۰۲۵}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\pagebreak
+
+\include{p1}
+\include{p2}
+\include{p3}
+\include{p4}
+
+\setLTRbibitems{}
+\bibliographystyle{ieeetr}
+\bibliography{references.bib}
+
+\end{document}
